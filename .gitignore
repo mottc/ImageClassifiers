@@ -1,0 +1,6 @@
+
+*.gz
+*.pyc
+.idea
+CIFAR10_classifier/test
+CIFAR10_classifier/train
