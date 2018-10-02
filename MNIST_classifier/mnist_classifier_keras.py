@@ -8,7 +8,7 @@ mnist = input_data.read_data_sets(MNIST_data_folder, one_hot=True)
 model = keras.Sequential()
 model.add(keras.layers.Flatten())
 model.add(keras.layers.Dense(300, activation='relu'))
-model.add(keras.layers.Dropout(0.75))
+model.add(keras.layers.Dropout(0.25))
 model.add(keras.layers.Dense(10, activation='softmax'))
 
 adam = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
