@@ -4,3 +4,4 @@
 .idea
 CIFAR10_classifier/test
 CIFAR10_classifier/train
+TransferLearning/pre_trained_models
